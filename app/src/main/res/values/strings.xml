@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Taaruf_Hijaiyah</string>
+    <string name="harf_name">Nama Huruf</string>
+    <string name="detail">detail</string>
+    <string name="name">Hendri</string>
+    <string name="agama">Agama : Islam</string>
+    <string name="ttl">TTL : Kuningan, 24 Nov 1990</string>
+    <string name="jk">Jenis Kelamin : Pria</string>
+    <string name="alamat">Alamat : Bekasi, Jatirasa, Jatiasih </string>
+    <string name="con">Hubungi</string>
+    <string name="share">share</string>
+    <string name="about_me">Saya hendri, lulusan jurusan sistem informasi, dan sekarang meneruskan pendidikan s1 lintas jurusan (pelajaran agama) serta sedang meneruskan juga s2 bidang agama. minat didalam teknologi sejak sma, dan sampai sekarangpun masih menggeluti, akan tetapi sesuai fungsinya saja yaitu sebagai alat untuk mempermudah dalam permasalahan sehari-hari, motivasi belajar android agar dapat memiliki aplikasi yang membantu orang belajar agama, terutama membaca al-quran</string>
+    <string name="profile">Profile</string>
+    <string name="viewMe">Follow Me</string>
+    <string name="content_specs_display">ndrianggar@gmail.com
+                                         https://github.com/ndrianggar
+                                         https://www.linkedin.com/in/ndrianggar/
+    </string>
+    <string name="competency">Compentency</string>
+    <string name="content_specs_size">PHP
+                                      CSS
+                                      HTML
+                                      JAVA
+                                      DART
+    </string>
+    <string name="judul">Judul</string>
+    <string name="dummy_value">dummy_value</string>
+    <string name="back">back</string>
+    <string name="penjelasan">penjelasan</string>
+    <string name="count">count</string>
+    <string name="detailtbl">detailtbl</string>
+    <string name="listCardHijaiyah">Hijaiyah Card</string>
+
+
+</resources>

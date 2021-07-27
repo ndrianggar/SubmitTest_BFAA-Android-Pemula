@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_item_about"
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="4dp"
+        android:scaleType="matrix"
+        android:src="@drawable/about"/>
+    <TextView
+        android:id="@+id/tv_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toEndOf="@id/img_item_about"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        />
+    <TextView
+        android:id="@+id/tv_item_agama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/agama"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toEndOf="@id/img_item_about"
+        android:layout_below="@id/tv_item_name"
+        android:textSize="16dp"
+        />
+    <TextView
+        android:id="@+id/tv_item_jenis_kelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jk"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toEndOf="@id/img_item_about"
+        android:layout_below="@id/tv_item_agama"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_item_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alamat"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toEndOf="@id/img_item_about"
+        android:layout_below="@id/tv_item_jenis_kelamin"
+        android:textSize="16dp"
+        />
+
+    <TableRow
+        android:id="@+id/tbl_satu"
+        android:layout_margin="@dimen/cardview_default_radius"
+        android:layout_width="239dp"
+        android:layout_height="60dp"
+        android:layout_toEndOf="@id/img_item_about"
+        android:layout_below="@id/tv_item_alamat">
+        <Button
+            android:id="@+id/btn_set_callme"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/cardview_default_radius"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/con"
+            android:background="@color/design_default_color_primary"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_set_share"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cardview_default_radius"
+            android:layout_weight="1"
+            android:text="@string/share"
+            android:background="@color/design_default_color_primary"
+            android:textSize="12sp" />
+
+    </TableRow>
+
+
+    <TextView
+        android:id="@+id/about_me"
+        android:layout_below="@id/tbl_satu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:lineSpacingMultiplier="1"
+        android:justificationMode="inter_word"
+        android:text="@string/about_me" />
+
+    <TableLayout
+        android:layout_below="@id/about_me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/viewMe" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:text="@string/content_specs_display" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:textSize="14sp"
+                android:text="@string/competency" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:text="@string/content_specs_size" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
